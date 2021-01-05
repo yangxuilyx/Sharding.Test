@@ -1,0 +1,76 @@
+DEBUG 2021-01-04 15:28:32,744 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-04 15:28:32,822 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-01-04 15:28:32,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sharding.Test.Web.Host.Startup.TestWebHostModule, Sharding.Test.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sharding.Test.TestWebCoreModule, Sharding.Test.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sharding.Test.TestApplicationModule, Sharding.Test.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sharding.Test.TestCoreModule, Sharding.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sharding.Test.EntityFrameworkCore.TestEntityFrameworkModule, Sharding.Test.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:32,846 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-01-04 15:28:32,947 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-01-04 15:28:32,947 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-01-04 15:28:32,947 [1    ] o.Configuration.LanguageManagementConfig - Converted Test (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-01-04 15:28:32,947 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-01-04 15:28:33,345 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Sharding.Test.EntityFrameworkCore.TestDbContext, Sharding.Test.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-04 15:28:33,732 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-01-04 15:28:33,800 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-04 15:28:33,843 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-01-04 15:28:33,868 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Test
+DEBUG 2021-01-04 15:28:33,898 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-04 15:28:33,940 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-04 15:28:33,963 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Sharding.Test.MultiTenancy.Tenant, Sharding.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Sharding.Test.Authorization.Users.User, Sharding.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-01-04 15:28:34,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-01-04 15:28:34,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sharding.Test.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-01-04 15:28:34,011 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sharding.Test.Users.Dto.CreateUserDto
+DEBUG 2021-01-04 15:28:34,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sharding.Test.Users.Dto.UserDto
+DEBUG 2021-01-04 15:28:34,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sharding.Test.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-01-04 15:28:34,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sharding.Test.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-01-04 15:28:34,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sharding.Test.Roles.Dto.PermissionDto
+DEBUG 2021-01-04 15:28:34,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sharding.Test.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-01-04 15:28:34,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sharding.Test.MultiTenancy.Dto.TenantDto
+INFO  2021-01-04 15:28:39,474 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-01-04 15:28:39,841 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\yangx\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-01-04 15:28:39,886 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-01-04 15:28:39,985 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Sharding.Test.Web.Host.Controllers.HomeController.Index (Sharding.Test.Web.Host)'
+INFO  2021-01-04 15:28:40,944 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sharding.Test.Web.Host.Controllers.HomeController (Sharding.Test.Web.Host).
+INFO  2021-01-04 15:28:41,333 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-01-04 15:28:41,336 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Sharding.Test.Web.Host.Controllers.HomeController.Index (Sharding.Test.Web.Host) in 389.1766ms
+INFO  2021-01-04 15:28:41,337 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Sharding.Test.Web.Host.Controllers.HomeController.Index (Sharding.Test.Web.Host)'
+INFO  2021-01-04 15:28:41,350 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1464.5731ms 302 
+INFO  2021-01-04 15:28:41,483 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2021-01-04 15:28:41,529 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.0576ms 301 
+INFO  2021-01-04 15:28:41,531 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-01-04 15:28:41,558 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.438ms 200 text/html;charset=utf-8
+INFO  2021-01-04 15:28:41,669 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2021-01-04 15:28:41,670 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2021-01-04 15:28:41,704 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2021-01-04 15:28:41,705 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.9835ms 200 text/css
+INFO  2021-01-04 15:28:41,710 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2021-01-04 15:28:41,718 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2021-01-04 15:28:41,720 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.9761ms 200 application/javascript
+INFO  2021-01-04 15:28:41,721 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2021-01-04 15:28:41,722 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.6966ms 200 application/javascript
+INFO  2021-01-04 15:28:41,740 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2021-01-04 15:28:41,752 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\code\c cool\Sharding.Test\5.8.1\aspnet-core\src\Sharding.Test.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2021-01-04 15:28:41,752 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.9906ms 200 application/javascript
+INFO  2021-01-04 15:28:41,756 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2021-01-04 15:28:41,768 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\code\c cool\Sharding.Test\5.8.1\aspnet-core\src\Sharding.Test.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2021-01-04 15:28:41,769 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.9234ms 200 application/javascript
+INFO  2021-01-04 15:28:46,664 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-01-04 15:28:46,669 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Sharding.Test.Web.Host.Controllers.AntiForgeryController.SetCookie (Sharding.Test.Web.Host)'
+INFO  2021-01-04 15:28:46,677 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Sharding.Test.Web.Host.Controllers.AntiForgeryController (Sharding.Test.Web.Host).
+INFO  2021-01-04 15:28:46,694 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-01-04 15:28:46,696 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-01-04 15:28:46,883 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 188.8654ms 200 application/json;charset=utf-8
+INFO  2021-01-04 15:28:46,891 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Sharding.Test.Web.Host.Controllers.AntiForgeryController.SetCookie (Sharding.Test.Web.Host) in 213.3869ms
+INFO  2021-01-04 15:28:46,891 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Sharding.Test.Web.Host.Controllers.AntiForgeryController.SetCookie (Sharding.Test.Web.Host)'
+INFO  2021-01-04 15:28:46,892 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 228.2981ms 200 application/json; charset=utf-8

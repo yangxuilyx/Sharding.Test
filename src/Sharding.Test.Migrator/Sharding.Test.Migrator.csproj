@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Sharding.Test.Migrator</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Sharding.Test.Migrator</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="appsettings.json;log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.Castle.Log4Net" Version="6.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sharding.Test.Core\Sharding.Test.Core.csproj" />
+    <ProjectReference Include="..\Sharding.Test.EntityFrameworkCore\Sharding.Test.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+</Project>
